@@ -143,7 +143,7 @@ def convert_units(category, direction, value):
         factor = conversion_factors[category][direction]
         return value * factor
 
-# --- styling with chacha gpt ---
+
 st.subheader("1️⃣ Choose Conversion Type:")
 category = st.selectbox("Select Category", list(conversion_factors.keys()))
 
